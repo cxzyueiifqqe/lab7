@@ -1,0 +1,364 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    width: 100%;
+height: 800px;
+/* flex-shrink: 0; */
+background: #3098F3;
+}
+.container-logo{width: 100%;
+    height: 81px;
+    /* flex-shrink: 0; */
+    /* width: 100%; */
+    display: flex;
+    /* flex-flow: row nowrap; */
+    /* height: 100px; */
+    justify-content: right;
+    background: #3098F3;
+}
+.logo{
+    position: absolute;
+    /* height: inherit; */
+    margin-left: 10%;
+    /* top:32px; */
+    height: 81px;
+    align-items: center;
+    display: flex;
+    /* justify-content: center; */
+    /* flex-direction: row; */
+}
+.logo > .img{
+    height: inherit;
+    
+    align-items: center;
+    display: flex;
+}
+.buttons-logo{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    /* width: 200px; */
+    justify-content: right;
+    font-size: 30px;
+}
+.buttons-logo > a{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    width: 150px;
+    line-height: 24px; /* 120% */
+    text-decoration: none;
+    /* color: black; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* width: 100%; */
+    height: 100px;
+}
+.buttons-logo > a:hover{
+    font-size: 35px;
+}
+.navbar{
+    border-bottom: 1px solid #0968bb;
+}
+/* @media screen and (max-width: 768px) {
+    .container-logo{
+        justify-content: center;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .logo{
+        width: 90%;
+        height: auto;
+    }
+    .logo > .img{
+        width: 100%;
+        height: inherit;
+    }
+    .buttons-logo > a {
+        height: 70px;
+    }
+}
+@media screen and (max-width: 432px) {
+    .buttons-logo{
+        flex-direction: column;
+    }
+} */
+
+.header{
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-text-header{
+    position: absolute;
+    width: 583px;
+    top: 296px;
+}
+.upText{
+    color: #FFF;
+font-family: DM Sans;
+font-size: 51px;
+font-style: normal;
+font-weight: 400;
+line-height: 67.2px; /* 131.765% */
+letter-spacing: 1.12px;
+}
+.downText{
+    color: #FC0;
+font-family: Archivo;
+font-size: 52px;
+font-style: normal;
+font-weight: 400;
+line-height: 67.2px; /* 129.231% */
+letter-spacing: 1.12px;
+}
+
+.circle-1{
+    position: absolute;
+    right: 15%;
+    top: 604px;
+}
+.circle-2{
+    position: absolute;
+    right: 12%;
+    top: 604px;
+}
+.circle-3{
+    position: absolute;
+    right: 9%;
+    top: 604px;
+}
+.circle-4{
+    position: absolute;
+    right: 6%;
+    top: 604px;
+}
+
+
+
+/* main */
+/*  */
+/*  */
+/*  */
+
+.kryjok{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 181.219px;
+    height: 181.219px;
+    border-radius: 90.6096px;
+    position: relative;
+}
+#red{
+    background-color: #FE6571;
+}
+#dark-blue{
+    background-color: #3098F3;
+}
+#yellow{
+    background-color: #FFCC00;
+}
+.section-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.container-section-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10%;
+}
+.container-1-text{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: justify;
+    
+    color: #05051E;
+font-family: DM Sans;
+font-size: 42px;
+font-style: normal;
+font-weight: 400;
+line-height: 50.4px;
+}
+.section-1-2-circles{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-1-text{
+    /* display: flex; */
+    /* width: 100%; */
+    /* height: 100%; */
+/* flex-shrink: 0; */
+    color: #05051E;
+font-family: DM Sans;
+font-size: 42px;
+font-style: normal;
+font-weight: 400;
+line-height: 50.4px; /*120%*/
+}
+.circle-1-1{
+    position: relative;
+    z-index: 1;
+}
+/* .section-1{
+    
+    position: absolute;
+    top: 960px;
+    margin: 0 auto;
+    width: 80%;
+} */
+/* 
+
+
+1. ПОПРАВИТЬ РАСПОЛОЖЕНИЕ
+2. ПОПРАВИТЬ СВГШКИ
+
+
+
+
+*/
+/* .container-section-1{
+    display: grid;
+width: 1120px;
+justify-content: center;
+align-items: center;
+gap: 20%;
+grid-template-columns: 1fr 1fr;
+}
+.container-section-1 > div{
+    width: 30%;
+}
+.section-1-text{
+    display: flex;
+    width: 100%;
+    height: 100%;
+flex-shrink: 0;
+    color: #05051E;
+font-family: DM Sans;
+font-size: 42px;
+font-style: normal;
+font-weight: 400;
+line-height: 50.4px; 120%
+}
+.text-section-1{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.section-1-2-circles{
+    width: 416px;
+    height: 392px;
+    flex-shrink: 0;
+} */
+
+
+
+
+.section-2{
+    position: absolute;
+    top: 1512px;
+}
+.section-2-img{
+    width: 560px;
+height: 420px;
+flex-shrink: 0;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.section-2-mini-text{
+    width: 181px;
+    color: #3098F3;
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 19.2px; /* 120% */
+letter-spacing: 0.16px;
+text-transform: uppercase;
+}
+.section-2-normal-text{
+    width: 433px;
+    color: #05051E;
+font-family: DM Sans;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 38.4px; /* 120% */
+}
+.section-2-bottom-text{
+    width: 146px;
+    color: #05051E;
+font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 23.4px; /* 130% */
+}
+.section-2-button{
+    width: 250px;
+    height: 57px;
+    flex-shrink: 0;
+    border-radius: 100px;
+background: #3098F3;
+}
+.section-2-a{
+    text-decoration: none;
+    width: 186px;
+    color: #FFF;
+text-align: center;
+font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 25.2px; /* 140% */
+}
+
+.section-3{
+    position: absolute;
+    top: 2633px;
+    width: 1440px;
+height: 853px;
+flex-shrink: 0;
+background: #FC0;
+}
+
+
+
+
+
+
+.section-4-topText{
+    width: 495px;
+    color: #05051E;
+font-family: DM Sans;
+font-size: 51px;
+font-style: normal;
+font-weight: 400;
+line-height: 67.2px; /* 131.765% */
+letter-spacing: 1.12px;
+}
+.section-4-miniText{
+    width: 764px;
+    color: #05051E;
+font-family: DM Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 33.6px; /* 140% */
+
+}
