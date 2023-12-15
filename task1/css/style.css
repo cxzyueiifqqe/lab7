@@ -10,6 +10,8 @@ html, body{
     overflow-x: hidden;
 }
 .wrapper{
+    
+    background: url(img/bg.jpg);
     min-height: 100%;
     display: flex;
     flex-direction: column;
