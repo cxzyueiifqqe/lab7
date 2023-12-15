@@ -193,7 +193,8 @@ p{
     padding: 10px;
     text-indent: 60px;
     text-align: justify;
-    background-color: rgb(229, 116, 204);
+    /* background-color: rgb(229, 116, 204); */
+    background-color: rgb(0, 0, 0);
     -o-background-clip: text;/*opera*/
     -moz-background-clip: text;/*mozilla*/
     -ms-background-clip: text;/*enterner explorer*/
@@ -457,9 +458,14 @@ body {
 }
 
 
-footer{box-shadow: 2px -4px 30px rgba(0, 0, 0, .4);
-    padding-top: 15px;
-    border-radius: 60px 60px 0 0;
+footer{
+    /* box-shadow: 2px -4px 30px rgba(0, 0, 0, .4); */
+    /* padding-top: 15px; */
+    /* background-image: url(img/porei.jpg); */
+    /* border-radius: 60px 60px 0 0; */
     width: 100%;
-    background-color: #64C4AF;
+    /* background-color: #64C4AF; */
 }
+/* footer:not(.slider){ */
+    /* opacity: 0.5; */
+/* } */

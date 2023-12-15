@@ -8,8 +8,10 @@
     <link type="image/x-icon" href="img/favicon-16x16.ico" rel="shortcut icon">
     <link type="image/x-icon" href="img/favicon-16x16.ico" rel="icon">
     <link rel="stylesheet" href="simple-adaptive-slider.min.css">
+    <link rel="stylesheet" href="slider-another.css">
     <!-- Подключаем JS слайдера -->
     <script defer src="simple-adaptive-slider.min.js"></script>
+    <script defer src="slider-another.js"></script>
       <script>
       document.addEventListener('DOMContentLoaded', function () {
         // инициализация слайдера
@@ -75,7 +77,8 @@
                       <a class="special-button" href="https://mikupa.ru/hatsune_miku">Узнать больше!</a>
                     </div>
                     </p>
-                <div class="between-line"></div>
+                    <div style="padding: 25px;"></div>
+                <!-- <div class="between-line"></div> -->
             </section>
 
             <section>
@@ -103,7 +106,7 @@
 
     <footer>
         <nav>
-            <div class="slider">
+            <!-- <div class="slider">
                 <div class="slider__wrapper">
                   <div class="slider__items">
                     <div class="slider__item">
@@ -130,8 +133,23 @@
                 </div>
                 <a class="slider__control slider__control_prev" href="#" role="button" data-slide="prev"></a>
                 <a class="slider__control slider__control_next" href="#" role="button" data-slide="next"></a>
-              </div>
-        </nav>
+              </div> -->
+
+        <div class="sim-slider">
+          <ul class="sim-slider-list">
+            <li class="sim-slider-element" style="font-size: 23px;">А вы знаете, что у такой, вроде бы чистокровной японки, как Мику, испанские корни?</li>
+            <li class="sim-slider-element" style="font-size: 21px;">Хироюки-сан прекрасно знал, что для успешного продвижения любой продукции, по крайней мере в Японии, нужно создать яркий образ.</li>
+            <li class="sim-slider-element" style="font-size: 23px;">Фамилию 初音 можно было перевести как «первый звук» или «первое пение птицы«, с именем было еще сложнее, Мику 未来,означало «будущее».</li>
+            <li class="sim-slider-element" style="font-size: 21px;">При всем многообразии вокалоидов в последнее время, Мику уверенно, с большим перевесом опережает своих виртуальных коллег, всерьез конкурируя с живыми исполнителями.</li>
+            <li class="sim-slider-element" style="font-size: 23px;">Если посмотреть на картинки Мику Хатсуне, то на подавляющем большинстве из них она будет изображена с луком-пореем.</li>
+            <li class="sim-slider-element" style="font-size: 20px;">Возраст, 16 лет, был тоже был выбран не случайно — у такой певицы репертуар может быть как на «взрослые» темы, так и совсем детским. Определен рост — 158 см и вес — 42 кг, неплохие показатели для Японии.</li>
+          </ul>
+          <div class="sim-slider-arrow-left"></div>
+          <div class="sim-slider-arrow-right"></div>
+          <div class="sim-slider-dots"></div>
+        </div>
+      <div class="empty"></div>
+    </nav>
     </footer>
     </div>
     <script src="js.js"></script>

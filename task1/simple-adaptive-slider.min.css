@@ -3,13 +3,14 @@
     position:relative;
     overflow:hidden;
     max-width:70%;
+    /* max-width: 100%; */
     margin-left:auto;
     margin-right:auto
 }
 .slider__wrapper{
     position:relative;
     overflow:hidden;
-    background-color:#eee
+    background-color:#eee;
 }
 .slider__items{
     display:flex;
