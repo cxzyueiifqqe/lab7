@@ -15,12 +15,13 @@ html, body{
     display: flex;
     flex-direction: column;
 }
-
+/* 
 .section-0{
 
-    /* position: relative; */
-    /* padding: 100px 200px; */
-}
+    position: relative;
+    padding: 100px 200px;
+} */
+
 .upward{
     position: fixed;
     bottom: 900px;
