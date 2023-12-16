@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 header{
     width: 100%;
@@ -308,6 +309,8 @@ font-weight: 400;
 line-height: 38.4px; /* 120% */
 }
 .section-2-bottom-text{
+    display: flex;
+    align-items: center;
     /* width: 146px; */
     color: #05051E;
 font-family: DM Sans;
@@ -315,6 +318,9 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 23.4px; /* 130% */
+}
+.section-2-bottom-text > img{
+    margin-right: 5px;
 }
 /* .section-2-button{
     width: 250px;
@@ -668,33 +674,6 @@ padding: 5px 20px 8px;
     margin: 180px 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer{
     background: #082C4E;
 }
@@ -904,9 +883,52 @@ background: #FC0;
 .div23 > div:hover{
     cursor: pointer;
 }
-
+/* 
 .kryg{
     position: absolute;
     right: 1%;
-    /* bottom: 441px; */
+    bottom: 441px;
+} */
+
+footer{
+    overflow: hidden;
+    position: relative
+}
+.krygi{
+    display: flex;
+    flex-direction: column;
+    /* padding: 10px; */
+    position: absolute;
+    top: -210px;
+    right: 1%   
+}
+.krygi > svg{
+    margin-bottom: 40px;
+}
+
+.section-0{
+
+    position: relative;
+    padding: 100px 200px;
+}
+.upward{
+    position: fixed;
+    bottom: 900px;
+    right: 40px;
+    width: 70px;
+    height: 70px;
+    background: url(../img/upward.png);
+    border: 5px solid #FC0;
+    border-radius: 40px;
+    background-size: cover;
+    z-index: 1;
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+.upward.active{
+    bottom: 40px;
+    visibility: visible;
+    opacity: 1;
 }

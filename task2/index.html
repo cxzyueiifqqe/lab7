@@ -8,6 +8,7 @@
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
 </head>
 <body>
+
     <header>
         <nav>
             <div class="navbar">
@@ -54,7 +55,12 @@
 
 
     <main>
+      <section class="section-0">
+        <div class="upward" onclick="scrollTopTop()">
+      </section>
+
         <section class="section-1">
+          
             <div class="container-section-1">
             <div class="container-1-text"><span class="text-section-1">We’re a team of humans with the strategy, tools, and talent to build outstanding branding solutions and digital products.</span>
             </div><div class="section-1-2-circles">
@@ -111,7 +117,7 @@
             <div class="div2">
               <div><div class="section-2-mini-text">Columbia University</div>
               <div class="section-2-normal-text">Redesigning Columbia University's genomics app for on-the-go analysis</div>
-              </div><div class="section-2-bottom-text" style="display: flex; align-items: center;"><img src="img/Frame (11).png" style="margin-right: 5px;">View Case Study</div>
+              </div><div class="section-2-bottom-text"><img src="img/Frame (12).png">View Case Study</div>
             </div>
           </div>
             
@@ -121,7 +127,7 @@
             <div class="div1-2">
               <div><div class="section-2-mini-text">Nubi</div>
               <div class="section-2-normal-text">Designing a new product experience for a PayPal partner in the fintech industry</div>
-              </div><div class="section-2-bottom-text" style="display: flex; align-items: center;"><img src="img/Frame (11).png" style="margin-right: 5px;">View Case Study</div>
+              </div><div class="section-2-bottom-text"><img src="img/Frame (12).png">View Case Study</div>
             </div>
             <div class="div2-2">
               <img src="img/section-2Снимок экрана от 2021-04-26 23-08-35 1.png">
@@ -346,13 +352,33 @@
           </div>
 
       </div>
-      <div class="kryg">
-      <img src="img/Vector.png">
+      <div class="krygi">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" width="330" height="330" viewBox="0 0 330 330" fill="none">
+          <path d="M165 283C230.17 283 283 230.17 283 165C283 99.8304 230.17 47 165 47C99.8304 47 47 99.8304 47 165C47 230.17 99.8304 283 165 283Z" stroke="#FFCC00" stroke-width="94"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="330" height="330" viewBox="0 0 330 330" fill="none">
+          <path d="M165 283C230.17 283 283 230.17 283 165C283 99.8304 230.17 47 165 47C99.8304 47 47 99.8304 47 165C47 230.17 99.8304 283 165 283Z" stroke="#3098F3" stroke-width="94"/>
+        </svg>
+      <!-- <img src="img/Vector.png"> -->
     </div>
 </div>
 </div>
 
 
     </footer>
+    
+    <script>
+      window.addEventListener('scroll', function(){
+          var scroll = document.querySelector('.upward');
+          scroll.classList.toggle("active", window.scrollY > 500)
+      })
+      function scrollTopTop(){
+          window.scrollTo({
+              top: 0,
+              behavior: 'smooth'
+          })
+      }
+  </script>
 </body>
 </html>
