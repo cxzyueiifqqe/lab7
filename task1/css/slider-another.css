@@ -1,7 +1,7 @@
 
   .sim-slider {
     max-width: 1200px;
-    min-width: 320px;
+    min-width: 200px;
     /* width: 1000px; */
 
     margin: 20px auto;
@@ -102,7 +102,7 @@
   @media screen and (max-width: 768px) {
   
     .sim-slider-element{
-      height: 150px;
+      height: 200px;
       width: 100%;
     }
   
@@ -111,11 +111,49 @@
     }
   
     div.sim-slider-arrow-right{
-      top: 150%;
+      top: 140%;
     }
   
     div.sim-slider-arrow-left{
-      top: 150%;
+      top: 140%;
+    }
+  
+  }
+  @media screen and (max-width: 600px) {
+    .sim-slider-element{
+      height: 320px;
+      width: 100%;
+    }
+    
+    div.sim-slider-dots{
+      bottom: -290px;
+    }
+  
+    div.sim-slider-arrow-right{
+      top: 250%;
+    }
+  
+    div.sim-slider-arrow-left{
+      top: 250%;
+    }
+  
+  }
+  @media screen and (max-width: 324px) {
+    .sim-slider-element{
+      height: 420px;
+      width: 100%;
+    }
+    
+    div.sim-slider-dots{
+      bottom: -400px;
+    }
+  
+    div.sim-slider-arrow-right{
+      top: 330%;
+    }
+  
+    div.sim-slider-arrow-left{
+      top: 330%;
     }
   
   }
