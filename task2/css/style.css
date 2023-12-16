@@ -816,7 +816,8 @@ letter-spacing: 1.12px;
 
 .input-box {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr auto;
+    max-width: 300px;
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
