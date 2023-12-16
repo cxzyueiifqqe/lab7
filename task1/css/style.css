@@ -1,18 +1,44 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 html, body{
     background: url(../img/bg.jpg);
     height: 100%;
     position: relative;
     line-height: 1.4;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 .wrapper{
     min-height: 100%;
     display: flex;
     flex-direction: column;
+}
+
+.section-0{
+
+    /* position: relative; */
+    /* padding: 100px 200px; */
+}
+.upward{
+    position: fixed;
+    bottom: 900px;
+    right: 40px;
+    width: 70px;
+    height: 70px;
+    background: url(../img/arrow-up.png);
+    background-size: cover;
+    z-index: 1;
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+.upward.active{
+    bottom: 40px;
+    visibility: visible;
+    opacity: 1;
 }
 /* стили для header */
 
@@ -418,6 +444,7 @@ body{
     font-weight: 300;
     margin-top: 20px;
     text-align: center;
+    padding: 0px 30px;
 }
 .btn{
     font-size: 30px;
