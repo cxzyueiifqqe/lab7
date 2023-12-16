@@ -327,7 +327,7 @@ article > section:first-child{
     display: flex;
     padding-top: 3px;
     background-color: aqua;
-    margin: 40px auto;
+    margin: 0px auto 40px;
 }
 
 
